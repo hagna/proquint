@@ -1,2 +1,2 @@
-Proquint: Indeitifiers that are Readable, Spellable, and Pronounceable. See https://github.com/dsw/proquint.
+Proquint: Identifiers that are Readable, Spellable, and Pronounceable. See https://github.com/dsw/proquint.
 
