@@ -18,6 +18,9 @@ template handle_vowel() =
     result.add(vowels[int(j)])
 
 proc uint2quint*(c: uint32): string = 
+    ## Converts a uint to a pronounceable quintuplet or quint (https://arxiv.org/html/0901.4016).
+    ## For example, "0x93437702" is "natag-lisaf".
+
     var
       i = c
       j: uint32
@@ -47,6 +50,8 @@ template vvs(ch: char, i: int) =
       result += i
 
 proc quint2uint*(s: string): uint32 = 
+    ## Converts a quint to a uint.
+
     var
       c: char
 
